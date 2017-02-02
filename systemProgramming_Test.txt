@@ -1,0 +1,64 @@
+1.  a: datatypes specs, often more essential than actual functions. 
+b: function specs, Including What given function does, why it does it 
+c: an introduction document that binds the whole into a logical entity, explaining the intentions, correct usage patterns and ideas beyond the scope of actual API code. Normally you are given 50 different functions and you don't know which must be used, which shouldn't be used outside of specific cases, which are recommended to more obscure alternatives and why must they be used that way.
+d: examples. Sometimes they are more important than all the rest
+
+2. 644
+
+3.type of file
+
+4.chmod o+x test
+
+chmod others+x test
+
+5. don't know
+ 
+6.022
+
+7. 실한하는 순간 소유자 권한, 이후 root 권한
+
+8. don't know
+
+9. ls -s 원본파일 대상파일  심볼릭 링크 생성 
+링크파일이 깜빡이면서 원본파일이 없다고함
+
+10. -rwxr-wr-w 10 bob bob 172 Feb  2 00:01 a(여기에 링크)
+
+11. 원본파일과 다른 이름으로 존재하는 동일한 파일이며 원본파일과 동일한 내용의 다른 파일이라고 할 수 있다. 그리고 하드링크에서는 원본파일과 링크파일 두개가 서로 다른 파일이기 때문에 둘 중 하나를 삭제하더라도 나머지 하나는 그대로 남아 있다. 또한 하드링크에서는 원본파일의 내용이 변경될 경우에는 링크파일의 내용 또한 자동으로 변경된다.
+
+12. don't know
+
+13. 0
+
+14. _exit(); 호출하면 곧바로 커널로 복귀하지만, exit(); 함수를
+
+사용하면 버퍼를 비운다던지, 기타 루틴을 수행후에 커널로
+
+복귀합니다.
+
+15: 0
+0
+0
+done
+
+
+16. a. fred.o, libfoo.a
+	b : main.o libfoo.a
+		bill.o fred.o
+		bill.o fred.o
+		bill.c
+		fred.c
+
+17. malloc() allocates memory on the process heap. Memory allocated using malloc() will remain on the heap until it is freed using free().
+
+alloca() allocates memory within the current function's stack frame. Memory allocated using alloca() will be removed from the stack when the current function returns. alloca() is limited to small allocations.
+
+18. file2
+file1
+file3
+
+19. process
+
+20. x
+
+여기까지가...끝인가보오..
